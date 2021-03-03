@@ -17,7 +17,9 @@ Quickstart:
         UsePool : false,
         PoolSize : 3,
     };
+    
     auto rdb = RedisClient::NewClient(opts);
+    
     if (rdb == nullptr) {
         cerr << "failed to create redis client" << endl;
         return -1;  
