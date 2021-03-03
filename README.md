@@ -1,5 +1,4 @@
-# rediscc
-Golang Style Mordern C++ Redis Client
+# rediscc - Golang Style Mordern C++ Redis Client
 
 Features:
 
