@@ -5,11 +5,7 @@ Unified interface for Single Redis client and Redis Cluster
 
 Quickstart: 
 
-#include "rediscc/client.hpp"
-#include <iostream>
-using namespace std;
-int main(int argc, char** argv)
-{
+
     RedisOptions opts {
         IP : "127.0.0.1",
         Port : 6379,
@@ -38,5 +34,3 @@ int main(int argc, char** argv)
             cout << "key is nil" << endl; 
         }
     }
-    return 0;
-}
