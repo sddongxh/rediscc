@@ -1,11 +1,12 @@
 # rediscc
-Golang Style C++ Redis Client
+Golang Style Mordern C++ Redis Client
 
 Features:
 
 1) Unified interface for Single Redis client and Redis Cluster
 2) Supports connection pool, thread-safe
 3) Golang style APIs
+4) C++17 required
 
 Quickstart: 
 
