@@ -1,10 +1,3 @@
-# rediscc
-Golang Style C++ Redis Client
-
-Unified interface for Single Redis client and Redis Cluster
-
-Quickstart: 
-
 #include "rediscc/client.hpp"
 #include <iostream>
 using namespace std;
