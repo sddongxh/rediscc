@@ -1,6 +1,6 @@
 # rediscc - Golang Style Mordern C++ Redis Client
 
-Features:
+# Features:
 
 1) Unified interface for Single Redis client and Redis Cluster
 2) Supports connection pool, thread-safe
@@ -8,7 +8,19 @@ Features:
 4) C++17 
 5) Header only
 
-Quickstart: 
+# References: 
+
+https://github.com/go-redis/redis
+
+# Build instructions
+
+Prerequisites:
+
+hiredis & hiredis-cluster: 
+https://github.com/Nordix/hiredis-cluster
+
+
+# Quickstart: 
 
 
     RedisOptions opts {
